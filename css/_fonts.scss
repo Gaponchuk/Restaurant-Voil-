@@ -1,0 +1,56 @@
+@font-face {
+    font-family:'PT Sans';
+    src: url('PT Sans.eot');
+	src: url('PT Sans.eot?#iefix') format('embedded-opentype'),
+		url('PT Sans.woff2') format('woff2'),
+		url('PT Sans.woff') format('woff'),
+		url('PT Sans.ttf') format('truetype'),
+		url('PT Sans.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-F6CE;
+}
+
+
+@font-face {
+    font-family:'PT Sans';
+    src: url('PT Sans Bold.eot');
+	src: url('PT Sans Bold.eot?#iefix') format('embedded-opentype'),
+		url('PT Sans Bold.woff2') format('woff2'),
+		url('PT Sans Bold.woff') format('woff'),
+		url('PT Sans Bold.ttf') format('truetype'),
+		url('PT Sans Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-F6CE;
+}
+
+@font-face {
+    font-family:'PT Serif';
+    src: url('PT Serif.eot');
+	src: url('PT Serif.eot?#iefix') format('embedded-opentype'),
+		url('PT Serif.woff2') format('woff2'),
+		url('PT Serif.woff') format('woff'),
+		url('PT Serif.ttf') format('truetype'),
+		url('PT Serif.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-F6CE;
+}
+
+@font-face {
+    font-family:'PT Serif';
+    src: url('PT Serif Bold.eot');
+	src: url('PT Serif Bold.eot?#iefix') format('embedded-opentype'),
+		url('PT Serif Bold.woff2') format('woff2'),
+		url('PT Serif Bold.woff') format('woff'),
+		url('PT Serif Bold.ttf') format('truetype'),
+		url('PT Serif Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-F6CE;
+}
