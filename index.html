@@ -32,10 +32,11 @@
       </div>
       <div class="scroll-header">
         <p>Scroll down for details</p>
+        <a href="#about"></a>
       </div>
     </div>
   </div>
-  <section class="about">
+  <section id="about" class="about">
     <div class="wrapper">
       <div class="about-info">
         <h2>About Voila Restaurant</h2>
@@ -62,9 +63,9 @@
         <a href="#" class="btn">View menu</a>
       </div>
       <div class="description-img">
-        <img src="img/Tasteful_Steak-vegetables.jpg" alt="" width="212">
-        <img src="img/Tasteful_Beef-steak.jpg" alt="" width="212">
-        <img src="img/tasteful_cakes.jpg" alt="" width="455">
+        <img src="img/Tasteful_Steak-vegetables.jpg" class="img1" alt="" >
+        <img src="img/Tasteful_Beef-steak.jpg" class="img2" alt="" >
+        <img src="img/tasteful_cakes.jpg" class="img3" alt="" >
       </div>
     </div>
   </section>
@@ -72,22 +73,22 @@
     <div class="wrapper">
       <div class="reserve">
        <h2>Make a Reservation</h2>
-        <form action="">
+        <form action="" method="">
           <div>
             <label for="user-name">Name</label>
-            <input id="user-name" type="text">
+            <input id="user-name" type="text" class="user">
           </div>
-          <div> 
+          <div>  
             <label for="date">Date</label>
-            <input id="date" type="date">
+            <input id="date" type="date" class="date">
           </div>
           <div>
             <label for="time">Time</label>
-            <input id="time" type="text" datetime="">
+            <input id="time" type="text" datetime="" class="time">
           </div>
           <div> 
             <label for="commensals">Commensals</label>
-            <input id="commensals" type="text">
+            <input id="commensals" type="text" class="commensals">
           </div>
             <input type="submit" value="find a table">
         </form>
@@ -104,7 +105,7 @@
         <div class="event">
           <h4>Louis XII Food Festival</h4>
           <span class="date">March 21th</span>
-          <span class="time">12%00 PM</span>
+          <span class="time">12:00 PM</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum atque, odit optio veritatis. </p>
           <a href="#">Read more...</a>
         </div>
@@ -125,19 +126,19 @@
         <p>Like our restaurant concept? Book a table and taste our dishes on first hand.</p>
         <a href="#" class="btn">Book a table</a>
       </div>
-      <div class="vertical-line"></div>
+<!--      <div class="vertical-line"></div>-->
       <div class="social">
         <h3>Tell to Your Friends</h3>
         <p>Some of your friends may like to visit if you recommend us. They’ll trust your taste!</p>
-        <a href="https://facebook.com" class="fb"></a>
-        <a href="https://twitter.com" class="tw"></a>
+        <a href="https://facebook.com" class="fb">Share</a>
+        <a href="https://twitter.com" class="tw">Tweet</a>
       </div>
     </div>
   </section>
   <footer>
     <div class="wrapper">
-      <image src=""></image>
-      <ul>Navigation
+      <img src="img/logo.svg">
+      <ul class="footer-nav">Navigation
         <li><a href="#">Menu</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Events</a></li>
@@ -146,13 +147,13 @@
       </ul>
       <div class="contact">
         <h5>Visit us</h5>
-        <p>Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh.<span class="about-text">View on the map.</span></p>
-        <h6>Connect with us</h6>
+        <p>Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh.<span class="about-text"> View on the map.</span></p>
+        <h5>Connect with us</h5>
         <ul class="social">
-          <a href="">fb</a>
-          <a href="">tw</a>
-          <a href="">in</a>
-          <a href="">ad</a>
+          <a class="fb" href=""></a>
+          <a class="tw" href=""></a>
+          <a class="in" href=""></a>
+          <a class="ad" href=""></a>
         </ul>
       </div>
     </div>
