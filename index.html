@@ -14,17 +14,19 @@
     <div class="wrapper">
       <a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
       <nav> 
-        <ul class="top-navigation">
+        <ul id="topNav" class="top-navigation">
+         <li class="icon" onclick="myFunction()"><a href="#">Navigation</a></li>
           <li><a href="#">Menu</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Reservations</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#reserve">Reservations</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
         </ul>
       </nav>
       <div class="header-info">
         <h1>Welcome to Voilà</h1>
-        <p>We offer mouth watering <span>French cuisine</span></p>
+        <p>We offer mouth watering <span>French&nbsp;cuisine</span></p>
       </div>
       <div class="header-btn">
         <a href="#" class="btn" >see menu</a>
@@ -71,29 +73,29 @@
   </section>
   <section class="reserve-events">
     <div class="wrapper">
-      <div class="reserve">
+      <div id="reserve" class="reserve">
        <h2>Make a Reservation</h2>
         <form action="" method="">
-          <div>
-            <label for="user-name">Name</label>
+          <div class="field-form">
             <input id="user-name" type="text" class="user">
+            <label for="user-name">Name</label>
           </div>
-          <div>  
-            <label for="date">Date</label>
+          <div class="field-form">  
             <input id="date" type="date" class="date">
-          </div>
-          <div>
-            <label for="time">Time</label>
+            
+          </div> 
+          <div class="field-form">
             <input id="time" type="text" datetime="" class="time">
+            <label for="time">Time</label>
           </div>
-          <div> 
-            <label for="commensals">Commensals</label>
+          <div class="field-form"> 
             <input id="commensals" type="text" class="commensals">
+            <label for="commensals">Commensals</label>
           </div>
             <input type="submit" value="find a table">
         </form>
       </div>
-      <div class="events">
+      <div id="events"  class="events">
         <h2>Upcoming Events</h2>
         <div class="event">
           <h4>Live Music Fridays</h4>
@@ -119,7 +121,7 @@
       </div>
     </div>
   </section>
-  <section class="booking-social">
+  <section id="contact" class="booking-social">
     <div class="wrapper">
       <div class="booking">
         <h3>Book a Table</h3>
@@ -140,10 +142,10 @@
       <img src="img/logo.svg">
       <ul class="footer-nav">Navigation
         <li><a href="#">Menu</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Reservations</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#reserve">Reservations</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="contact">
         <h5>Visit us</h5>
@@ -158,6 +160,6 @@
       </div>
     </div>
   </footer>
-  
+  <script src="script.js"></script>
 </body>
 </html>
