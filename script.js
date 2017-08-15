@@ -1,8 +1,17 @@
 function myFunction() {
-  var x = document.getElementById("topNav");
-  if (x.className === "top-navigation") {
-    x.className += "responsive";
+  var g = document.getElementById("topNav");
+  if (g.className === "top-navigation") {
+    g.className += " responsive";
   } else {
-    x.className = "top-navigation";
+    g.className = "top-navigation";
   }
-}
+  
+//  
+  var selector = '.block1, .block2, .block3';
+  
+  if ($(selector).hasClass('change')) {
+    $(selector).removeClass('change');
+  } else {
+    $(selector).addClass('change')
+  };
+  }

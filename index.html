@@ -15,13 +15,16 @@
       <a href="#" class="logo"><img src="img/logo.svg" alt=""></a>
       <nav> 
         <ul id="topNav" class="top-navigation">
-         <li class="icon" onclick="myFunction()"><a href="#">Navigation</a></li>
-          <li><a href="#">Menu</a></li>
+          <li class="icon" onclick="myFunction(this)" id="cross">
+            <span class="block1 as"></span>
+            <span class="block2 as"></span>
+            <span class="block3 as"></span>
+          </li>
+          <li><a href="#menu">Menu</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#events">Events</a></li>
           <li><a href="#reserve">Reservations</a></li>
           <li><a href="#contact">Contact</a></li>
-          
         </ul>
       </nav>
       <div class="header-info">
@@ -34,7 +37,7 @@
       </div>
       <div class="scroll-header">
         <p>Scroll down for details</p>
-        <a href="#about"></a>
+        <a href="#about" id="scroll"></a>
       </div>
     </div>
   </div>
@@ -149,7 +152,7 @@
       </ul>
       <div class="contact">
         <h5>Visit us</h5>
-        <p>Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh.<span class="about-text"> View on the map.</span></p>
+        <p>Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh.<a href="#" class="about-text"> View on the map.</a></p>
         <h5>Connect with us</h5>
         <ul class="social">
           <a class="fb" href=""></a>
@@ -161,5 +164,7 @@
     </div>
   </footer>
   <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scroll.js"></script>
 </body>
 </html>
